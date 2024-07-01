@@ -1,0 +1,65 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Store E-commerce</title>
+    <link rel="stylesheet" href="com.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Local Store E-commerce</h1>
+            <p>Browse our products and shop online today!</p>
+        </section>
+        <section id="products">
+            <h2>Products</h2>
+            <div class="product-grid">
+                <!-- Product listings will be displayed here -->
+            </div>
+        </section>
+        <section id="cart">
+            <h2>Shopping Cart</h2>
+            <table id="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-table-body">
+                    <!-- Cart items will be displayed here -->
+                </tbody>
+            </table>
+            <button id="checkout-btn">Checkout</button>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for any questions or concerns.</p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <script src="com.js"></script>
+</body>
+</html>
